@@ -1,0 +1,36 @@
+.module-container {
+    width: 100%;
+}
+
+.practice-staff-header {
+    width: 90%;
+    background-color: gray;
+    margin: auto;
+    position: relative;
+}
+
+.practice-staff-header img {
+    width: 25%;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.practice-pic {
+    position: absolute;
+    top: 0;
+}
+
+.practice-pic img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.practice-name {
+    width: 20%;
+    float: right;
+}
+
+
+.table-container {
+    width: 100%;
+}
