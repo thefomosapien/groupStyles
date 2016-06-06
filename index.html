@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html ng-app="app">
+
+<head>
+
+    <title>Billing Simplified Styles</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="billingAdmin/billingAdmin.css">
+    <link rel="stylesheet" href="billingStaff/billingStaff.css">
+    <link rel="stylesheet" href="login/login.css">
+    <link rel="stylesheet" href="practiceAdmin/practiceAdmin.css">
+    <link rel="stylesheet" href="practiceStaff/practiceStaff.css">
+
+</head>
+
+<body>
+
+    <ui-view></ui-view>
+
+
+    <!--Angular-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+
+    <!--jQuery-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.js"></script>
+
+    <script src="app.module.js"></script>
+    <script src="app.config.js"></script>
+
+    <!--Controllers-->
+    <script src="billingAdmin/billingAdmin.controller.js"></script>
+    <script src="billingStaff/billingStaff.controller.js"></script>
+    <script src="practiceAdmin/practiceAdmin.controller.js"></script>
+    <script src="practiceStaff/practiceStaff.controller.js"></script>
+    <script src="login/login.controller.js"></script>
+
+    <!--Directives-->
+    <script src="practiceStaff\table.directive.js"></script>
+
+
+
+</body>
+
+</html>
