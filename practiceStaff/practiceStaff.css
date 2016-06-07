@@ -21,7 +21,8 @@
 }
 
 .practice-pic img {
-    width: 100%;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 
@@ -32,5 +33,5 @@
 
 
 .table-container {
-    width: 100%;
+    width: 
 }
