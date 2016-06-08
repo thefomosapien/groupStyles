@@ -14,6 +14,12 @@ angular.module('app').config(function ($stateProvider, $urlRouterProvider) {
             controller: 'practiceStaffCtrl'
         })
 
+        .state('patientProfile', {
+            url: '/patientProfile',
+            templateUrl: 'patientProfile/patientProfile.html',
+            controller: 'patientProfileCtrl'
+        })
+
         .state('practiceAdmin', {
             url: '/practiceAdmin',
             templateUrl: 'practiceAdmin/practiceAdmin.html',

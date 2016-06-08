@@ -3,9 +3,21 @@
     margin: auto;
 }
 
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
 .search-container {
     display: flex;
     align-items: center;
+    margin-top: 35px;
 }
 
 .search-title {
@@ -98,17 +110,6 @@ textarea {
     outline: none;
 }
 
-.nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 100px;
-    background-color: gray;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
 .practice-staff-header {
     margin: 0px;
     position: relative;
@@ -134,8 +135,35 @@ textarea {
     width: 330px;
 }
 
-.table-container {
+.patient-list {
     width: 100%;
-    margin: auto;
-    margin-top: 15px;
+    margin-top: 35px;
+    background-color: white;
+    box-shadow: 0 3px 12px -1px rgba(0, 0, 0, .3);
 }
+
+.patient-table {
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+
+.patient-table, textarea {
+    padding: 15px;
+}
+
+.patient-table:hover {
+    box-shadow: 0 3px 12px -1px rgba(0, 0, 0, .3);
+}
+
+.patient-list-items {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.patient-list-items li {
+    font-size: 25px;
+    background: none;
+    color: black;
+}
+
