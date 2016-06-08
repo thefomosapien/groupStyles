@@ -16,6 +16,8 @@
     width: 500px;
     margin-top: 3px;
     margin-right: 10px;
+    border: 0;
+    box-shadow: 0 3px 12px -1px rgba(0, 0, 0, .3);
 }
 
 #patient-filter,
@@ -23,8 +25,6 @@ textarea {
     font-size: 22px;
     display: block;
     padding: 5px 10px;
-    background: none;
-    border: 1px solid black;
     color: black;
 }
 
