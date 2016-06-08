@@ -14,6 +14,7 @@
 
 #patient-filter {
     width: 500px;
+    height: 40px;
     margin-top: 3px;
     margin-right: 10px;
     border: 0;
@@ -28,11 +29,18 @@ textarea {
     color: black;
 }
 
+#patient-filter:focus {
+    outline: none;
+    border: 1px solid black;
+}
+
 #dob-filter {
     width: 200px;
-    height: 26px;
+    height: 40px;
     margin-top: 3px;
     margin-right: 10px;
+    border: 0;
+    box-shadow: 0 3px 12px -1px rgba(0, 0, 0, .3);
 }
 
 #dob-filter,
@@ -40,15 +48,21 @@ textarea {
     font-size: 20px;
     display: block;
     padding: 5px 10px;
-    background: none;
-    border: 1px solid black;
     color: black;
+}
+
+#dob-filter:focus {
+    outline: none;
+    border: 1px solid black;
 }
 
 #ssn-filter {
     width: 200px;
+    height: 40px;
     margin-top: 3px;
     margin-right: 10px;
+    border: 0;
+    box-shadow: 0 3px 12px -1px rgba(0, 0, 0, .3);
 }
 
 #ssn-filter,
@@ -56,9 +70,12 @@ textarea {
     font-size: 22px;
     display: block;
     padding: 5px 10px;
-    background: none;
-    border: 1px solid black;
     color: black;
+}
+
+#ssn-filter:focus {
+    outline: none;
+    border: 1px solid black;
 }
 
 #submit-search {
@@ -71,7 +88,6 @@ textarea {
     padding: 12px 32px;
     font-size: 15px;
 }
-
 
 #submit-search:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
