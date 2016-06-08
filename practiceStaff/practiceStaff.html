@@ -14,23 +14,32 @@
 
         </div>
 
-        <h1 style="margin:2px;"><u>Search for your patient</u></h1>
+
 
         <div class="search-container">
 
-            <input id="search" type="search" autocomplete="off" placeholder="Choose Patient">
+            <div class="search-title">
+                <h1 style="margin:2px;"><u>Search by:</u></h1>
+                <input id="patient-filter" type="search" placeholder="Choose Patient">
+            </div>
 
-            <input id="dob-filter" type="date">
+            <div class="search-title">
+                <input id="dob-filter" type="date">
+            </div>
 
-            <input id="ssn-filter" type="number" placeholder="Last 4 of SSN" maxlength="4">
+            <h1 style="margin-right:10px;">OR</h1>
 
-            <input type="submit" value="Submit">
+            <div class="search-title">
+                <input id="ssn-filter" type="text" placeholder="Last 4 of SSN" maxlength="4">
+            </div>
+
+            <input id="submit-search" type="submit" value="Submit">
 
         </div>
 
-        <div class="table-container">
+        <!--<div class="table-container">
             <table-dir></table-dir>
-        </div>
+        </div>-->
 
     </div>
 
